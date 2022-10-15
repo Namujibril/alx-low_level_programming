@@ -1,1 +1,1 @@
-This is introduction to C programin language, ny ALX SE.
+This is a variable if_else and if_while

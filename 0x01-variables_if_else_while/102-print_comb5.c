@@ -40,3 +40,5 @@ putchar (' '); /*prirint a space*/
 putchar('\n'); /*new line*/
 
 return (0);
+
+}

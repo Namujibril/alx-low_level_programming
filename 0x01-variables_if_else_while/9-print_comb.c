@@ -1,27 +1,31 @@
-include <stdio.h>
-
+#include <stdio.h>
 /**
- * main -  program that prints all possible combinations of single-digit
- * Numbers must be separated by ,followed by a space
- * Numbers should be printed in ascending order
- * You can only use the putchar function
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
+
 {
-int n = 48;
-int com = 44;
-while (n <= 57)
+int number; /*Decarling statement*/
+
+/*for 0-9 with (,)*/
+for (number = 48; number <= 57; number++)
 {
-putchar(n);
-if (n != 57)
+putchar(number); /*print  number*/
+
+/*if the value is 9 in format ASCII break the program*/
+if (number == 57)
 {
-putchar(com);
-putchar(32);
+break;
 }
-n += 1;
+
+putchar(','); /*print (,)*/
+putchar (' '); /*print a space*/
 }
+
 putchar('\n');
+
 return (0);
+
 }

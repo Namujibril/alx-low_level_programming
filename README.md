@@ -1,1 +1,1 @@
-This is a variable if_else and if_while
+This project is base on pointer, array and string.

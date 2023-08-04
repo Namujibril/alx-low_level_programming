@@ -1,1 +1,2 @@
-This is the Static library project on C_programing language, from ALX SE program.
+0x09. C - Static libraries
+The project is all about static library 

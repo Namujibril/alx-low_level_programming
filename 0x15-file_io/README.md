@@ -8,7 +8,7 @@ Project done during **Full Stack Software Engineering studies** at **ALX**. Lear
 * Tested on Ubuntu 20.04 LTS
 
 ## Files
-All of the following files are programs written in C:
+All of the following files are programs written in C Language:
 
 | Filename | Description |
 | -------- | ----------- |
